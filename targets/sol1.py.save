@@ -1,0 +1,3 @@
+print_good_addr = "0x0804889c"
+frame_addr = "0xbffefe28"
+print("012345678912"+frame_addr+good_addr_end)

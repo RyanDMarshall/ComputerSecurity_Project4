@@ -21,6 +21,16 @@ while True and iter < 50:
 	testdoub = testdoub + str(randint(0,99999)) + "." + testdoub
 	testobject = "{\"" + testkey + "\":\"" + testdoub + "\"}"
 
+        #testint = testint + str(randint(0,1000)) + testint
+        #testobject = "{\"" + testkey + "\":\"" + testint + "\"}"
+
+        #testdouble = testdouble.replace('.','')
+        #testdouble = testdouble + str(randint(0,5)) + "." + testdouble
+        #testobject = "{\"" + testkey + "\":\"" + testdouble + "\"}"
+
+        #testrandom = randstring() + rand80()
+        #testobject = "{\"" + testkey + "\":\"" + testrandom + "\"}"
+
 	#testarrayleft = testarray.replace(']','')
 	#testarrayright = testarray.replace('[','')
 	#testarray = testarrayleft + "," + str(randint(0,9)) + "," + testarrayright

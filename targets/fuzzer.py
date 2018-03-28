@@ -35,7 +35,7 @@ while True and iter < 50:
 	child = subprocess.Popen("./jsonParser", stdin=subprocess.PIPE, stderr=subprocess.PIPE)
 	_, stdErrOut = child.communicate(input = testobject)
 	if child.returncode != 0:
-		print "Error: {}".format(child.returncode)
+		#print "ERROR: {}".format(child.returncode)
 		print base64.b64encode(testobject)
 		sys.exit(0)
 
